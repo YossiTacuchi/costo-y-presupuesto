@@ -485,7 +485,10 @@ ul{
 .columna-compartimos{
     width: 50%;
 }
-
+.bg-footer{
+    background-image: url('../images/bg-footer.jpeg');
+    height: 115px;
+}
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
@@ -511,6 +514,9 @@ ul{
         background-size: cover;
     }
     .info-2-verde{
+        width: 100%;
+    }
+    .columna-compartimos{
         width: 100%;
     }
     .info{
@@ -550,7 +556,7 @@ ul{
         padding:  20px;
     }
     .content-respuesta-main .main{
-        height: 760px;
+        height: 670px;
     }
     .content-respuesta-main .main img{
         height: fit-content !important;
